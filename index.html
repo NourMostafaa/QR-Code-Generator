@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <p>Enter Your Text Or URL</p>
+            <input type="text" placeholder="Text Or URL">
+            <div class="imgBox">
+                <img src="" class="qrImg">
+            </div>
+            <button onclick="generateQR()">Generate QR Code</button>
+            <p class="how" onclick="howToUse()">How To Use ?</p>
+        </div>
+        <footer>
+            <h2>Developed With By 
+            <span>Nour Mostafa</span></h2>
+        </footer>
+    
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(—Pngtree—a\ smartphone\ scans\ a\ qr_4028465.jpg);
+    background-size: cover;
+    position: relative;
+}
+.overlay {
+    background-color: #11101075;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    width: 400px;
+    padding: 25px 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.container p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #000000;
+    padding: 13px;
+    margin: 20px 0 ;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgb(50, 159, 48);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.imgBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 0 30px ;
+}
+.how {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-top: 15px;
+    color: gray;
+    font-weight: normal;
+    cursor: pointer;
+}
+footer {
+    position: absolute;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-weight: normal;
+    bottom: 0;
+}
+footer span {
+    animation: name infinite 3s;
+}
+
+@keyframes name {
+    25% {color: red;}
+    50%  {color: #4498ec;}
+    100% {color: rgb(10, 210, 10);}
+
+}
+@media (width < 447px) {
+    footer {
+        font-size: 12px;
+    }
+    .container {
+        max-width: 280px;
+        padding: 25px 35px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    
+    .container p {
+        font-size: 14.5px;
+    }
+    
+}
